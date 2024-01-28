@@ -25,13 +25,13 @@ http://127.0.0.1:8000/cook_recipe/show_recipes_without_product/1/
 git clone https://github.com/Petro2561/Factory_test.git
 ```
 
-2. ССобираем образ
+2. Собираем образ
 
 ```
 docker build -t myapp .
 ```
 
-3. Запускаем контейнеры (Предполагается, что у вас установлен докер)
+3. Запускаем контейнеры
 ```
 docker run -p 8000:8000 myapp
 ```
